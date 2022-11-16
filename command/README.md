@@ -17,5 +17,5 @@ El cliente que crea un comando no es el mismo cliente que lo ejecuta. Esta separ
 ![](https://github.com/kmilo717/Design-Patterns/blob/master/Images/c2.png)
 - Define una unión entre un objeto receptor y una acción. Implementa el ejecutor invocando la operación correspondiente en el receptor.
 ![](https://github.com/kmilo717/Design-Patterns/blob/master/Images/c3.png)
-- Sabiendo cómo llevar a cabo las operaciones asociadas a la realización de una petición. Cualquier clsase puede servir como un receptor.
+- Sabiendo cómo llevar a cabo las operaciones asociadas a la realización de una petición. Cualquier clase puede servir como un receptor.
 ![](https://github.com/kmilo717/Design-Patterns/blob/master/Images/c4.png)
