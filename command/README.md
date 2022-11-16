@@ -11,11 +11,11 @@ El cliente que crea un comando no es el mismo cliente que lo ejecuta. Esta separ
 
 ---
 **Descripción del Código:**
-- Pide al comando que cargue la petición.1
+- Pide al comando que cargue la petición.
 ![](https://github.com/kmilo717/Design-Patterns/blob/master/Images/c1.png)
-- Declara una interfaz para ejecutar una operación.2
+- Declara una interfaz para ejecutar una operación.
 ![](https://github.com/kmilo717/Design-Patterns/blob/master/Images/c2.png)
-- Define una unión entre un objeto receptor y una acción. Implementa el ejecutor invocando la operación correspondiente en el receptor.3
+- Define una unión entre un objeto receptor y una acción. Implementa el ejecutor invocando la operación correspondiente en el receptor.
 ![](https://github.com/kmilo717/Design-Patterns/blob/master/Images/c3.png)
 - Sabiendo cómo llevar a cabo las operaciones asociadas a la realización de una petición. Cualquier clsase puede servir como un receptor.
 ![](https://github.com/kmilo717/Design-Patterns/blob/master/Images/c4.png)
