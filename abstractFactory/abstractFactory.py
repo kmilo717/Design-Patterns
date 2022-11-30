@@ -17,8 +17,12 @@ class concreteFactory1(abstractFactory):
     def createSecondProduct(self):
         return concreteSecondProduct1()
 
+class concreteFactory2(abstractFactory):
+    def createFirstProduct(self):
+        return concreteFirstProduct2()
 
-
+    def createSecondProduct(self):
+        return concreteSecondProduct2()
 
 
 class abstractFirstProduct(metaclass = abc.ABCMeta):
